@@ -30,7 +30,7 @@ print(question_result)
 ```py
 # Available Models 
 # "v1" , "v2" , "v2-beta" , "v3" (DALL-E) , "lexica" , "prodia", "simurg", "animefy", "raava", "shonin" 
-# Default Model; "v3" 
+
 image_result = herc.draw_image(model="simurg", prompt="A beautiful landscape", negative_prompt="Dark and gloomy")
 print(image_result)
 # print(image_result["url"]) For Image URL        
