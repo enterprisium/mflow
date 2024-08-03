@@ -1,3 +1,8 @@
+##THIS IS ANOTHER PROJECT! AND IS MOT RELATED TO THIS PROJECT! 
+## THIS PROJECT DO NOT BELONGS TO MFLOW or MindsFLOW.ai!
+#This is Just Example Project and has no cosenr with mindsflow.ai! 
+
+
 !apt install -q imagemagick
 !cat /etc/ImageMagick-6/policy.xml | sed 's/none/read,write/g'> /etc/ImageMagick-6/policy.xml
 
