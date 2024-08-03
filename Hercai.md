@@ -8,7 +8,7 @@ pip install hercai
 **Exampe Construction;**
 ```py
  from hercai import Hercai
- herc = Hercai("") # If you have a Hercai API Key, please define it in this section. 
+ herc = Hercai("") 
 ```
  
  > **Question API; [https://hercai.onrender.com/v3/hercai?question=](https://hercai.onrender.com/v3/hercai?question=)**
@@ -17,8 +17,7 @@ pip install hercai
 ```py
 # Available Models 
 # "v3" , "v3-32k" , "turbo" , "turbo-16k" , "gemini" , "llama3-70b" , "llama3-8b" , "mixtral-8x7b" , "gemma-7b" , "gemma2-9b"
-# Default Model; "v3" 
-# Premium Parameter; personality => Optional
+
 question_result = herc.question(model="v3", content="hi, how are you?")
 print(question_result)
 # print(question_result["reply"]) For Reply
