@@ -1,3 +1,8 @@
+#THIS IS JUST GRADIO EXAMPLE 
+#THIS IS JUST WEBUI EXAMPLE
+#THIS HAS 3 CLOUMS
+
+
 import gradio as gr
 
 def dummy_function(*args):
